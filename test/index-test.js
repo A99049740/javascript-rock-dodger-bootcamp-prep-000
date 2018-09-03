@@ -219,7 +219,7 @@ describe('Rock Dodger', () => {
 
         moveDodger(e)
 
-        expect(spy).toNotHaveBeenCalled()
+        expect(spy).toHaveBeenCalled()
       })
 
       it('calls moveDodgerLeft()', () => {
